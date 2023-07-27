@@ -1,0 +1,48 @@
+@import '../../../styles/global.css';
+
+.Pagination{
+   display: flex;
+   justify-content: space-between;
+}
+
+.wordSwapBtn{
+   background-color: inherit;
+   border: none;
+   color: var(--dark-grey);
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.wordSwapBtn:hover{
+   color: var(--grey);
+}
+
+.page{
+   color: var(--dark-grey);
+   font-size: 18px;
+   font-style: italic;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.page:hover{
+   color: var(--grey);
+   scale: 110%;
+}
+
+.activePage{
+   color: var(--green);
+}
+
+.pagesContainer{
+   display: flex;
+   gap: 7px;
+}
+
+@media screen and (max-width: 720px) {
+   .wordSwapBtn{
+     font-size: 13px;
+   }
+ }

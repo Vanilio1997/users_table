@@ -1,0 +1,40 @@
+@import '../../../styles/global.css';
+
+.container{
+   background: var(--grey);
+   max-width: 600px;
+   padding: 15px 16px;
+   display: flex;
+}
+
+.inputContainer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.input{
+   background-color: inherit;
+   width: 100%;
+   border: none;
+   outline: none;
+   color: var(--light-grey);
+   font-size: 13px;
+}
+
+.input::-webkit-input-placeholder { 
+   color: var(--light-grey);
+}
+
+.input::-moz-placeholder { 
+   color: var(--light-grey);
+}
+
+.searchPictureContainer{
+   border: none;
+   background: inherit;
+}
+.searchPicture{
+   width: 21px;
+   height: 21px;
+}

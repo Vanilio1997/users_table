@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: system-ui,  Roboto;
+  line-height: 137.687%;
+  padding: 23px 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .App {
+    padding: 23px 10px;
+  }
+}

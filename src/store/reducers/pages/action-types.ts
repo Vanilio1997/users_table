@@ -1,0 +1,6 @@
+export enum PAGE_ACTION_TYPES {
+   CHANGE_PAGE = '[PAGE] - CHANGE_PAGE',
+   NEXT_PAGE = '[PAGE] - NEXT_PAGE',
+   PREV_PAGE = '[PAGE] - PREV_PAGE',
+   MAX_PAGES = '[PAGE] - MAX_PAGES',
+};
